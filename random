@@ -1,0 +1,10 @@
+import mouse
+import random
+
+x = 1000
+
+for i in range(x):
+    h = random.randint(0, 1000)
+    w = random.randint(0, 1000)
+    mouse.move(w, h, duration = 0.1)
+    mouse.click()
